@@ -1,0 +1,36 @@
+# Archivos y directorios generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas específicas del entorno de desarrollo
+node_modules/
+dist/
+tmp/
+
+# Archivos específicos del entorno de desarrollo
+.env
+
+# Dependencias específicas de algún sistema de construcción
+*.log
+*.lock
+yarn-error.log
+npm-debug.log
+
+# Archivos de compilación
+*.bak
+*.log
+*.swp
+
+# Archivos específicos de IDEs o editores de texto
+.idea/
+.vscode/
+
+# Archivos de configuración
+config.js
+config.local.js
+
+# Archivos temporales
+*.tmp
+
+# Configuración específica de desarrollo
+dev-config.json
