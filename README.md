@@ -1,6 +1,7 @@
 # Nombre del Proyecto
 
 Bienvenido/a a [Aislaciones Térmicas Cardozo] - Una plataforma web para la venta de materiales.
+s
 
 ## Descripción
 
