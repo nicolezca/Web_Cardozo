@@ -34,3 +34,4 @@ config.local.js
 
 # Configuración específica de desarrollo
 dev-config.json
+.vercel

@@ -1,0 +1,91 @@
+.page-end {
+    padding: 1rem;
+    position: relative;
+}
+
+.page-end .content-end {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.content-end .links_client .card_link {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_link h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.card_link a {
+    color: var(--brow);
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.card_link a:hover {
+    text-decoration: underline;
+}
+
+.content-end .link_social h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: 'Tangerine';
+}
+
+.link_social .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social a { 
+    outline: 1px solid var(--brow);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    color: var(--brow);
+    transition: all 0.3s ease-in-out;
+}
+
+.social a:hover {
+  background: var(--brow);
+  color: black;
+}
+
+.copy {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.copy p {
+    color: rgb(77, 76, 76);
+}
+.buttonTop{
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+.buttonTop #Top{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--brow);
+    font-size: 30px;
+    transition: all .3s ease-in-out;
+}
+#Top i{
+    color: black;
+}
+#Top:hover{
+    opacity: .6;
+}

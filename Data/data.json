@@ -1,0 +1,58 @@
+[
+    {
+        "id_product": "1",
+        "espesores": "50mm, 65mm, 75mm, 100mm",
+        "medidas": "50 y 65mm = 1,20 x 10m / 75mm= 1,20 x 8m / 100mm = 1,20 x 5m",
+        "densidad": "Aprox. 30 Kgs./m3",
+        "tipo":"material",
+        "conductividad": "0.036 W/mK",
+        "nombre": "lana mineral termolana de roca basaltica",
+        "img": "lana_mineral.png",
+        "descripciones": "La lana mineral de origen en roca volcánica, es unos de los materiales más utilizados en el aislamiento térmico y acústico, por tener una gran variedad de presentación, como así de espesores, densidades y recubrimientos, volviendo perfectamente aplicable a una enorme variedad de situaciones..."
+    },
+    {
+        "id_product": "2",
+        "espesores": ["9mm", "13mm", "25mm", "32mm"],
+        "temperatura": "-50 a 115ºC",
+        "tipo":"material",
+        "conductividad": "0.032 - 0.023 W/mK",
+        "nombre": "Espuma elastomaerica armaflex-isoflex",
+        "img": "espuma_elastomerica.png",
+        "descripciones": {
+            "descripcion1":"Espuma elastomérica flexible, con comportamiento Ignífugo, elaborada para el aislamiento térmico de cañerías, tanques, y ductos. Su presentación es en tubos premoldeados , denominados 'coquillas', diseñadas especialmente para el aislamiento de cañerías; ó en planchas flexibles para usos múltiples.",
+            "descripcion2": "Las funciones más importantes de un aislamiento térmico en instalaciones de refrigeración, son el control de la condensación y el ahorro de energía durante un largo período de tiempo...",
+            "descripcion3": "Un continuo control de la condensación se determina por dos factores: Un valor bajo de λ que implica un menor espesor de aislamiento. Un alto valor de μ que garantiza el comportamiento del material aislante durante todo el tiempo de uso de la instalación. Esta combinación evita los riesgos de penetración y acumulación de la humedad."
+        },
+        "uso": "Ductos de Aire Acondicionado y/o Ventilación, aislación de equipos y máquinas, revestimiento de cañerías de uso Industrial o Refrigeración, aislamiento acústico fonoabsorbente de cabinas o ductos",
+        "presentacion": ["Planchas", "rollos", "cinta o Tubos coquilla."]
+    },
+    
+    {   
+        "id_product": "3",
+        "tipo": "material",
+        "medidas":"04mm, 06mm, 08mm y 1mm",
+        "nombre": "rollo de chapa de aluminio",
+        "espesores": ["06mm"],
+        "img":"rollo_de_chapa_de_aluminio.png",
+        "descripciones":{
+            "descripcion1":"Nuestro rollo de chapa de aluminio es un material versátil y resistente, especialmente diseñado para aplicaciones en cañerías, tanques y equipos que requieren protección metálica externa. Desarrollamos tratamientos térmicos personalizados para cada obra, garantizando una adaptación precisa a las dimensiones y espesores específicos. Este rollo de aluminio ofrece una óptima resistencia a la intemperie, cumpliendo con estándares de higiene y proporcionando beneficios estéticos notables",
+            "descripcion2":"Fabricado con chapa de aluminio de alta calidad, nuestro producto abarca espesores de 1mm, permitiendo una selección acorde a las necesidades de resistencia mecánica y las dimensiones de las superficies expuestas. La versatilidad de este material lo hace idóneo para diversas aplicaciones industriales."
+        },
+        "presentacion":["Rollo de chapa de aluminio"]
+    },
+    
+    {
+        "id_product":"4",
+        "espesores":["25mm", "38mm", "50mm"],
+        "tipo":"fabricacion",
+        "medidas":" '1/2' hasta 10",
+        "terminacion": ["Chapa", "acero", "inoxidable", "galvanizado", "aluminio"],   
+        "material":"metal corroido",
+        "nombre":"Recubrimiento metalico",
+        "img":"banner_fabricacion2.jpg",
+        "descripciones":"Los Tratamientos térmicos comúnmente desarrollados en cañerías, tanques o equipos; los cuales necesitan por cuestiones de resistencia a la intemperie, por higiene o por temas estéticos, deben llevar una protección metálica externa.Dichas protecciones las fabricamos en forma exclusiva para cada Obra en particular, contemplando sus dimensiones y espesores puntuales, aportando una máxima calidad estética y funcional.Los revestimientos los realizamos en chapa de Acero Inoxidable, galvanizada o de aluminio, en espesores de 0.4 a 3 mm, dependiendo de la resistencia mecánica que se requiera y dimensión de la superficies expuestas",
+        "presentacion":"Aluminio y Acero inoxidable",
+        "uso": ["Recubrimiento de cañerías", "tanques", "instalaciones"]
+    }
+
+]

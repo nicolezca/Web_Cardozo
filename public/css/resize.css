@@ -1,0 +1,334 @@
+/* aca esta el responsive design  */
+
+@media (max-width: 550px) {
+    /* Estilos para pantallas pequeñas */
+    header{
+        justify-content: center;
+    }
+    header .search-content{
+        display: none;
+    }
+    .banner p{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .aislaciones-tipos .aislaciones-list{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .aislaciones-tipos .aislaciones-list h2{
+        text-align: center;
+        width: 100%;
+    }
+    .content-material-type{
+        width: 90%;
+    }
+    .type-category .material-grid{
+        margin: 0;
+        width: 100%;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .material{
+        width: 70%;
+    }
+
+    .content-fabricacion{
+        margin: 5rem 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content-fabricacion h2{
+        text-align: center;
+    }
+    .content-fabricacion p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .content-fabricacion a{
+        text-align: center;
+        padding: .7rem 2rem;
+    }
+
+    .content-end{
+        flex-direction: column;
+    }
+    .links_client .card_link{
+        text-align: center;
+    }
+    .card_link a{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .link_social{
+        text-align: center ;
+        margin-top: 1rem;
+    }
+    .link_social .social{
+        margin-top: 1rem;
+    }
+    .copy p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    
+    /* pagina del material */
+    .banner-material {
+        height: 250px;
+    }
+    .banner-material h2{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+    }
+    .btns .btn{
+        font-size: 20px;
+    }
+    .details-content{
+        margin: 4rem 0;
+    }
+    .details-content .detail_card{
+        width: 100%;
+        padding: 1rem;
+    }
+    .detail_card .description{
+        width: 100%;
+    }
+    .description p{
+        font-size: 22px;
+    }
+
+    .detail_card .details{
+        width: 100%;
+    }
+    .details p{
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 3rem 0;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .details p strong{
+        padding-right: 0;
+        margin-bottom: .5rem;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    /* Estilos para pantallas medianas */
+    header{
+        justify-content: center;
+    }
+    header .search-content{
+        display: none;
+    }
+    .banner p{
+        width: 90%;
+        font-size: 22px;
+    }
+
+    .content-material-type{
+        width: 90%;
+    }
+    .type-category .material-grid{
+        margin: 0;
+        width: 100%;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .material{
+        width: 70%;
+    }
+
+    .content-fabricacion{
+        margin: 5rem 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content-fabricacion h2{
+        text-align: center;
+        margin: 0;
+    }
+    .content-fabricacion p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content-fabricacion a{
+        text-align: center;
+        padding: .7rem 2rem;
+    }
+
+    /* pagina del material */
+    .banner-material {
+        text-align: center;
+    }
+    .banner-material{
+        height: 300px;
+    }
+    .detail_card .description{
+        width: 100%;
+    }
+    .description p{
+        font-size: 22px;
+    }
+
+    .detail_card .details{
+        width: 100%;
+    }
+    .details p{
+        width: 90%;
+        margin: 3rem 0;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .details p strong{
+        padding-right: 0;
+        margin-bottom: .5rem;
+        display: block;
+    }
+}
+
+  
+@media (min-width: 650px) and (max-width: 750px) {
+    /* Estilos para pantallas grandes */
+    header{
+        justify-content: center;
+    }
+    header .title h1{
+        font-size: 35px;
+    }
+    header .search-content{
+        display: none;
+    }
+    .banner-material {
+        height: 300px;
+    }
+    .content-material-type{
+        width: 90%;
+    }
+    .type-category .material-grid{
+        margin: 0;
+        width: 100%;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .material{
+        width: 70%;
+    }
+
+        /* pagina del material */
+        .banner-material {
+            text-align: center;
+        }
+        .banner-material{
+            height: 300px;
+        }
+        .detail_card .description{
+            width: 100%;
+        }
+        .description p{
+            font-size: 22px;
+        }
+    
+        .detail_card .details{
+            width: 100%;
+        }
+        .details p{
+            width: 90%;
+            margin: 1rem 0;
+            margin-left: 5%;
+            font-size: 20px;
+        }
+        .details p strong{
+            padding-right: 0;
+            margin-bottom: .5rem;
+            display: block;
+        }
+}
+
+@media (min-width: 750px) {
+    /* Estilos para pantallas extra grandes */
+    header{
+        justify-content: center;
+    }
+    header .title h1{
+        font-size: 35px;
+    }
+    header .search-content{
+        display: none;
+    }
+    
+    .content-material-type{
+        width: 90%;
+    }
+    .type-category .material-grid{
+        margin: 0;
+        width: 100%;
+        gap: 2rem;
+        align-items: center;
+    }
+    .material{
+        width: 40%;
+    }
+    .content-fabricacion p{
+        width: 50%;
+        font-size: 25px;
+    }
+
+    /* pagina del material */
+    .banner-material {
+        text-align: center;
+    }
+    .banner-material{
+        height: 300px;
+    }
+    .detail_card .description{
+        width: 100%;
+    }
+    .description p{
+        font-size: 22px;
+    }
+
+    .detail_card .details{
+        width: 100%;
+    }
+    .details p{
+        width: 90%;
+        margin: 1rem 0;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .details p strong{
+        padding-right: 0;
+        margin-bottom: .5rem;
+        display: block;
+    }
+}
+@media (min-width: 1000px){
+    .detail_card .description{
+        width: 90%;
+    }
+    .description p{
+        font-size: 22px;
+    }
+}
+  
