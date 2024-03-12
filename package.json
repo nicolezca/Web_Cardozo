@@ -4,7 +4,7 @@
   "description": "Un proyecto web para la visualización de productos y gestión de inventario.",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
