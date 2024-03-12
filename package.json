@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Un proyecto web para la visualización de productos y gestión de inventario.",
   "main": "index.js",
+  "run app" : "node app.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
