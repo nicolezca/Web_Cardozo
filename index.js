@@ -2,7 +2,7 @@ const express = require('express');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Configurar el motor de vistas EJS
 app.set('view engine', 'ejs');
@@ -27,6 +27,6 @@ const indexRoutes = require('./routes/routes');
 app.use('/', indexRoutes);
 
 // Iniciar el servidor
-app.listen(port, () => {
-    console.log(`La aplicación está escuchando en http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`La aplicación está escuchando en http://localhost:${PORT}`);
 });
