@@ -1,0 +1,93 @@
+/* main */
+.content {
+    display: flex;
+background-color: black;
+flex-direction: column;
+
+}
+
+.main {
+    width: 100%; 
+}
+
+.content-material-type{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.type-category h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 5rem 0;
+    text-transform: uppercase;
+}
+.type-category .material-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 1rem);
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.material{
+    width: 45%;
+    position: relative;
+}
+
+.material .card-material{
+    background-color: rgb(233, 232, 232);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    padding: 1rem;
+    z-index: 10;
+}
+.material .btn-select{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin: 10px;
+    border: none;
+    outline: none;
+    z-index: 10;
+    background: none;
+}
+.material .btn-select .consult{
+    
+    font-size: 18px;
+}
+.material h3{
+    color: black;    
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+.material img{
+    width: 150px;
+    height: 150px;
+    transition: all .3s ease-in-out;
+}
+.material i{
+    margin-left: auto;
+    font-size: 30px;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+
+.card-material .material:hover{
+    background-color:rgb(252, 252, 252); 
+    box-shadow:  0 0 15px -6px white;  
+}
+.card-material .material:hover h3 {
+    color: var(--green);
+    font-weight:500;
+}
+
+.card-material .material:hover i {
+    color: var(--green);
+}

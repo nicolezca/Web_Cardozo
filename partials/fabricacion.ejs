@@ -1,0 +1,17 @@
+<!-- contenido de farbicacion -->
+<div class="content-fabricacion">
+    <h2>Fabricacion</h2>
+    <p>
+        Bienvenido a nuestro mundo de recubrimiento metálico, donde la
+        precisión se encuentra con la resistencia para dar vida a proyectos
+        extraordinarios. En cada paso de nuestro proceso, fusionamos artesanía experta
+        y tecnología de vanguardia para aplicar recubrimientos metálicos de la más alta
+        calidad.
+    </p>
+    <!-- boton para navegar al material de fabricacion -->
+     <% jsonData.filter(material => material.tipo === 'fabricacion').forEach((material, index) => {%>
+        <a href="/materials/<%= material.nombre.toLowerCase().replace(/\s+/g, '-') %>">
+            Ver detalles
+        </a>
+        <% }) %>
+</di>  

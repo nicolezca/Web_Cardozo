@@ -1,0 +1,37 @@
+<!-- Detalles de cada material -->
+<div class="details-content">
+    <!-- Botones de alternancia entre Descripción y Especificaciones -->
+    <div class="btns">
+        <button id="btn-description" class="btn active">Descripcion</button>
+        <button id="btn-details" class="btn">Especificaciones</button>
+    </div>
+    <!-- Contenedor para la tarjeta de detalles -->
+    <div class="detail_card">
+        <!-- Sección de descripción del material -->
+        <div class="description" id="description">
+            <!-- Obtención de datos de descripción del material -->
+            <% if (material.descripciones) { %>
+                <% if (typeof material.descripciones === 'object') { %>
+                    <!-- Iteración a través de las descripciones del material -->
+                    <% for (let key in material.descripciones) { %>
+                        <p> <%= material.descripciones[key] %></p>
+                    <% } %>
+                <% } else { %>
+                    <!-- Si la descripción no es un objeto -->
+                    <p><%= material.descripciones %></p>
+                <% } %>
+            <% } %>
+        </div>
+        <!-- Sección de detalles del material (inicialmente oculta) -->
+        <div class="details" style="display: none;" id="details">
+            <!-- Iteración a través de las propiedades del material -->
+            <% Object.entries(material).forEach(([key, value]) => { %>
+                <!-- Exclusión de ciertas propiedades para evitar duplicados -->
+                <% if (value  && key !== 'descripciones' && key !== 'img' && key !== 'nombre' && key !== 'tipo' && key !== 'id_product') { %>
+                    <!-- Presentación de las especificaciones -->
+                    <p><strong><%= key.charAt(0).toUpperCase() + key.slice(1) %>:</strong> <%= Array.isArray(value) ? value.join(', ') : value %></p>
+                <% } %>
+            <% }); %>
+        </div>
+    </div>
+</div>

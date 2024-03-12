@@ -1,0 +1,37 @@
+<!-- Contenido principal de la página -->
+<main class="main">
+
+    <!-- inclusion de la seccion de beneficios y tipos de aislaciones -->
+    <%- include('beneficios') %>
+
+    <!-- Contenedor para el tipo de material (Materiales) -->
+    <div class="content-material-type">
+        <!-- Categoría de materiales con identificador "materiales-category" -->
+        <div class="type-category" id="materiales-category">
+            <!-- Título de la categoría (Materiales) -->
+            <h2>Materiales</h2>
+            <!-- Cuadrícula de materiales -->
+            <div class="material-grid">
+                <!-- Iteración a través de los datos (jsonData) filtrando por tipo "material" -->
+                <% jsonData.filter(material => material.tipo === 'material').forEach((material, index) => { %>
+                    <div class="material">
+                        <!-- Enlace a la página de detalles del material -->
+                        <a href="/materials/<%= material.nombre.toLowerCase().replace(/\s+/g, '-') %>" class="card-material"  data-material-nombre="<%- material.nombre %>">
+                            <!-- Título del material -->
+                            <h3><%- material.nombre %></h3>
+                            <!-- Imagen del material -->
+                            <img src="/<%- material.img %>" alt="<%- material.nombre %>">
+                            <!-- Icono de flecha derecha para indicar más información -->
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+    <!-- Inclusión de la sección de fabricación desde un archivo parcial -->
+    <%- include('fabricacion'); %>
+</main>
+
+
+                        

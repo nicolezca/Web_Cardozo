@@ -1,0 +1,59 @@
+<!-- materialPage.ejs -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración de metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta SEO -->
+    <meta name="titulo" content="Contamos con amplio Stock de materiales aislantes para venta o trabajos propios Las aislaciones termicas permiten ahorros energeticos, eficiencia en los procesos que se traducen en reduccion de costos y cuidado del medio ambiente">
+    <meta name="fabricacion" content="Bienvenido a nuestro mundo de recubrimiento metálico, donde la precisión se encuentra con la resistencia para dar vida a proyectos extraordinarios. En cada paso de nuestro proceso, fusionamos artesanía experta y tecnología de vanguardia para aplicar recubrimientos metálicos de la más alta calidad.">
+    <meta name="copyright" content="© 2024 Aislaciones Termicas Cardozo - Bytech Company">
+    <link rel="shortcut icon" href="/logo_cardozo.png" type="image/x-icon">
+
+    <!-- Enlace al conjunto de iconos Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Enlace al archivo de estilos específico para la página -->
+    <link rel="stylesheet" href="/materialPage.css">
+
+    <!-- Título de la página basado en el nombre del material -->
+    <title><%- material.nombre %></title>
+
+    <!-- Estilo específico para el banner con la imagen del material -->
+    <style>
+        .banner-material::before {
+            background-image: url('/<%- material.img %>');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            filter: saturate(500%) brightness(20%) contrast(100%);
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inclusión del encabezado -->
+    <%- include('../partials/header'); %>
+
+        <!-- Contenido principal de la página -->
+        <div class="content-material">
+            <!-- Inclusión del componente del banner del material -->
+            <%- include('../partials/components/bannerMaterial'); %>
+
+                <!-- Inclusión del componente de detalles del material -->
+                <%- include('../partials/components/details'); %>
+        </div>
+
+        <%- include('../partials/privacidad'); %>
+        <%- include('../partials/terminosCondiciones'); %>
+        <!-- Inclusión del pie de página -->
+        <%- include('../partials/footer'); %>
+
+        <!-- Script específico para la página del material -->
+        <script src="/main.js"></script>
+        <script src="/material.js"></script>
+</body>
+
+</html>

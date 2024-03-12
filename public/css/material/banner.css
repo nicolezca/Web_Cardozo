@@ -1,0 +1,23 @@
+.banner-material{
+    width: 100%;
+    height: 500px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-material::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.banner-material h2{
+    z-index: 5;
+    font-size: 35px;
+    color: white;   
+    position: relative;
+}
