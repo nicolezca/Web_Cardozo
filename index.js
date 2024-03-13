@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.use(express.static('public/css/'));
 app.use(express.static('public/js/'));
 app.use(express.static('assets/'));
-
+app.use(express.static('assets/galery/'));
 // Middleware de seguridad Helmet
 app.use(helmet());
 
