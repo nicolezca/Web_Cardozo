@@ -30,9 +30,10 @@
     {   
         "id_product": "3",
         "tipo": "material",
-        "medidas":"04mm, 06mm, 08mm y 1mm",
+        "medidas":"espersores variables",
         "nombre": "rollo de chapa de aluminio",
         "espesores": ["06mm"],
+        "laminas  de chapa" : "1m x 2m varias medidas",
         "img":"rollo_de_chapa_de_aluminio.png",
         "descripciones":{
             "descripcion1":"Nuestro rollo de chapa de aluminio es un material versátil y resistente, especialmente diseñado para aplicaciones en cañerías, tanques y equipos que requieren protección metálica externa. Desarrollamos tratamientos térmicos personalizados para cada obra, garantizando una adaptación precisa a las dimensiones y espesores específicos. Este rollo de aluminio ofrece una óptima resistencia a la intemperie, cumpliendo con estándares de higiene y proporcionando beneficios estéticos notables",
